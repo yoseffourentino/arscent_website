@@ -22,19 +22,19 @@ export default function Product() {
     }
     return (
         <>
-        <div className="bg-[#F2EDE6]">
+        <div className="bg-[#ffffff]">
             <Navbar />
             {/* Top Section */}
             <div className="px-6 pt-30 pb-10 flex flex-col gap-5 
             lg:px-15 lg:pt-45
             ">
                 <AnimateOnView direction="right" delay={0.2}>
-                    <h1 className="ibx-plex-mono text-[22px] w-[300px]
+                    <h1 className="playfair-display text-[22px] w-[300px]
                     md:text-3xl md:w-[500px]
                     ">WHERE HISTORY REIMAGINED TO FRAGRANCE</h1>
                 </AnimateOnView>
                 <AnimateOnView direction="up" delay={0.3}>
-                    <p className="founders-grotesk-l text-[16px] w-[300px] text-justify
+                    <p className="playfair-display text-[16px] w-[300px] text-justify
                     md:text-xl md:w-[500px]
                     ">Kami berkomitmen pada kualitas  tertinggi, memilih format Extrait de Parfum (konsentrasi minyak wangi tertinggi), untuk memastikan bahwa legacy yang dibawa parfum dapat bertahan lama dan memiliki proyeksi kuat.</p>
                 </AnimateOnView>
@@ -80,13 +80,13 @@ export default function Product() {
                         <div className="flex flex-col items-center py-5 gap-2
                         lg:items-start lg:pl-10 lg:justify-end lg:py-10
                         ">
-                            <p className="founders-grotesk-m text-[16px]
+                            <p className="playfair-display text-[16px]
                             md:text-[24px]
                             ">{item.name}</p>
-                            <p className="founders-grotesk-r text-[14px]
+                            <p className="playfair-display text-[14px]
                             md:text-[20px]
                             ">{item.size}</p>
-                            <p className="founders-grotesk-r text-[12px] text-[#777777]
+                            <p className="playfair-display text-[12px] text-[#777777]
                             md:text-[16px]
                             ">{item.price}</p>
                             <Link href={`/detail/${item.id}`}>
