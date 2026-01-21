@@ -64,14 +64,14 @@ export default function Navbar() {
                     <div className="p-8">
                         <p className="font-semibold mb-2">EXPLORE</p>
                         <ul>
-                            <li className="space-y-2"><Link href="/about">OUR STORY</Link></li>
+                            <li className="space-y-2"><Link href="/about">ABOUT US</Link></li>
                         </ul>
                     </div>
                     <div className="p-8">
                         <p className="font-semibold mb-2">SOCIAL MEDIA</p>
                         <ul className="space-y-2">
                             <li className="space-y-2"><Link href="https://www.instagram.com/arscentofficial/" target="_blank">INSTAGRAM</Link></li>
-                            <li className="space-y-2"><Link href="https://www.tiktok.com/@arscentofficial" target="_blank">TIK TOK</Link></li>
+                            <li className="space-y-2"><Link href="https://www.tiktok.com/@arscentofficial" target="_blank">TIKTOK</Link></li>
                         </ul>
                     </div>
                     <div className="p-8">

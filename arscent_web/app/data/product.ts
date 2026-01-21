@@ -1,14 +1,17 @@
-import colombus1 from "../assets/img/colombus_1.jpg";
-import colombus2 from "../assets/img/colombus_2.jpg";
-import colombus3 from "../assets/img/colombus_3.jpg";
+import colombus1 from "../assets/img/8.png";
+import colombus2 from "../assets/img/6.png";
+import colombus3 from "../assets/img/7.png";
+import colombus4 from "../assets/img/9.png";
 import colombusBg from "../assets/img/colombus_bg.jpg";
-import earhart1 from "../assets/img/earhart_1.jpg";
-import earhart2 from "../assets/img/earhart_2.jpg";
-import earhart3 from "../assets/img/earhart_3.jpg";
+import earhart1 from "../assets/img/12.png";
+import earhart2 from "../assets/img/10.png";
+import earhart3 from "../assets/img/11.png";
+import earhart4 from "../assets/img/13.png";
 import earhartBg from "../assets/img/earhart_bg.jpg";
-import bonaparte1 from "../assets/img/bonaparte_1.jpg";
-import bonaparte2 from "../assets/img/bonaparte_2.jpg";
-import bonaparte3 from "../assets/img/bonaparte_3.jpg";
+import bonaparte1 from "../assets/img/17.png";
+import bonaparte2 from "../assets/img/15.png";
+import bonaparte3 from "../assets/img/16.png";
+import bonaparte4 from "../assets/img/17.png";
 import bonaparteBg from "../assets/img/bonaparte_bg.jpg";
 import { link } from "fs";
 
@@ -16,7 +19,7 @@ const collection = [
     {
         id: 1,
         name: "COLUMBUS",
-        image: [colombus1.src, colombus2.src, colombus3.src],
+        image: [colombus1.src, colombus2.src, colombus3.src, colombus4.src],
         aroma: ["Citrus", "Aquatic", "Aromatic"],
         size: "Exrtait de Parfum - 70ml",
         price: "IDR 242,900",
@@ -31,7 +34,7 @@ const collection = [
     {
         id: 2,
         name: "BONAPARTE",
-        image: [bonaparte1.src, bonaparte2.src, bonaparte3.src],
+        image: [bonaparte1.src, bonaparte2.src, bonaparte3.src, bonaparte4.src],
         aroma: ["Woody", "Fruit", "Sweet"],
         size: "Exrtait de Parfum - 70ml",
         price: "IDR 242,900",
@@ -46,7 +49,7 @@ const collection = [
     {
         id: 3,
         name: "EARHART",
-        image: [earhart1.src, earhart2.src, earhart3.src],
+        image: [earhart1.src, earhart2.src, earhart3.src, earhart4.src],
         aroma: ["Vanilla", "Floral"],
         size: "Exrtait de Parfum - 70ml",
         price: "IDR 242,900", 

@@ -1,52 +1,52 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import aboutImg1 from '../assets/img/about_img_1.jpg'
-import aboutImg2 from '../assets/img/about_img_2.jpg'
-import aboutImg3 from '../assets/img/about_img_3.jpg'
+import aboutImg1 from '../assets/img/about_1.jpeg'
+import aboutImg2 from '../assets/img/about_2.jpeg'
+import aboutImg3 from '../assets/img/about_3.jpeg'
 
 export default function About() {
     return(
-        <div className="bg-[#F2EDE6]">
+        <div className="bg-[#ffffff]">
             <Navbar />
             <div>
-                <img src={aboutImg1.src} alt="About Image 1" className="h-[550px] w-full object-cover" />
+                <img src={aboutImg1.src} alt="About Image 1" className="h-[550px] w-full object-cover brightness-60" />
                 <div className="px-6 py-12 
                 xl:px-12
                 ">
-                    <h1 className="ibx-plex-mono font-semibold text-[20px] mb-6
+                    <h1 className="playfair-display font-semibold text-[20px] mb-6
                     md:text-[26px]
                     xl:text-[30px]
                     ">OUR HISTORY</h1>
-                    <p className="text-justify founders-grotesk-r text-[16px]
+                    <p className="text-justify playfair-display text-[16px]
                     xl:text-[20px]
-                    ">Arscent didirikan pada tahun 2025 atas keyakinan bahwa wewangian seharusnya menjadi warisan karakter yang dapat dicium, bukan sekadar aksesoris. Nama Arscent sendiri adalah gabungan filosofis dari "Archive" (Arsip/Sejarah) dan "Scent" (Wewangian). Sejak awal, visi kami adalah menjadi jembatan antara masa lalu dan masa kini dengan mengarsipkan esensi karakter dan kisah tokoh-tokoh ikonik seperti keberanian Columbus atau ketegasan Bonaparte ke dalam formulasi parfum. Setiap varian adalah hasil riset mendalam untuk menerjemahkan atribut tokoh menjadi aroma yang kompleks dan bermakna. Kami berkomitmen pada kualitas tertinggi, memilih format Extrait de Parfum (konsentrasi minyak wangi tertinggi), untuk memastikan bahwa legacy yang dibawa parfum dapat bertahan lama dan memiliki proyeksi kuat (SPL tinggi), seolah mengabadikan sejarah itu sendiri. Kami berharap dengan mengenakan Arscent, setiap pengguna termotivasi untuk mendefinisikan dan merayakan potensi serta membangun legacy mereka sendiri.</p>
+                    ">Arscent was founded in 2025 on the belief that fragrance should be a legacy of character that can be perceived through scent, not merely an accessory. The name Arscent itself is a philosophical fusion of “Archive” (history/records) and “Scent” (fragrance). From the very beginning, our vision has been to serve as a bridge between the past and the present by archiving the essence of character and the stories of iconic figures—such as the courage of Columbus or the decisiveness of Bonaparte—into perfume formulations. Each variant is the result of in-depth research, translating a figure’s attributes into complex and meaningful aromas. We are committed to the highest quality, choosing the Extrait de Parfum format (the highest fragrance oil concentration) to ensure that the legacy carried by each perfume endures and projects strongly (high sillage), as if preserving history itself. Through wearing Arscent, we hope every wearer is inspired to define, celebrate their potential, and build their own legacy.</p>
                 </div>
-                <img src={aboutImg2.src} alt="About Image 2" className="h-[250px] w-full object-cover
+                <img src={aboutImg2.src} alt="About Image 2" className="h-[250px] w-full object-cover brightness-60
                 xl:h-[500px]
                 " />
                 <div className="px-6 py-12 
                 xl:px-12
                 ">
-                    <h1 className="ibx-plex-mono font-semibold text-[20px] mb-6
+                    <h1 className="playfair-display font-semibold text-[20px] mb-6
                     md:text-[26px]
                     xl:text-[30px]
                     ">OUR VISION</h1>
-                    <p className="text-justify founders-grotesk-r text-[16px]
-                    xl:text-[20px]">Menjadi brand parfum terdepan di Indonesia yang inovatif dalam mengarsipkan esensi karakter dan kisah tokoh bersejarah ke dalam wewangian premium, serta menginspirasi setiap individu untuk merayakan potensi dan legacydiri mereka sendiri.</p>
+                    <p className="text-justify playfair-display text-[16px]
+                    xl:text-[20px]">To become Indonesia’s leading perfume brand, innovatively archiving the essence of character and the stories of historical figures into premium fragrances, while inspiring every individual to celebrate their own potential and personal legacy.</p>
                 </div>
-                <img src={aboutImg3.src} alt="About Image 3" className="h-[250px] w-full object-cover
+                <img src={aboutImg3.src} alt="About Image 3" className="h-[250px] w-full object-cover brightness-60
                 xl:h-[500px]
                 " />
                 <div className="px-6 py-12 mb-12
                 xl:px-12
                 ">
-                    <h1 className="ibx-plex-mono font-semibold text-[20px] mb-6
+                    <h1 className="playfair-display font-semibold text-[20px] mb-6
                     md:text-[26px]
                     xl:text-[30px]
                     ">OUR MISSION</h1>
-                    <p className="text-justify founders-grotesk-r text-[16px]
+                    <p className="text-justify playfair-display text-[16px]
                     xl:text-[20px]
-                    " >Mengabadikan Sejarah, Menawarkan Pengalaman Emosional, Mendefinisikan Ulang Legacy.</p>
+                    " >Preserving History, Offering an Emotional Experience, Redefining Legacy.</p>
                 </div>
             </div>
             <Footer />
